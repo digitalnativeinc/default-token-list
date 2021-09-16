@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Wrapped Shibuya",
+      "address": "0x5d079f9f247F2A22fF8326C2EAb38609E54a865a",
+      "symbol": "WSBY",
+      "decimals": 18,
+      "chainId": 81,
+      "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4/logo.png"
+    },
+    {
+      "name": "Standard",
+      "address": "0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c",
+      "decimals": 18,
+      "chainId": 81,
+      "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c/logo.png" 
+    }
+  ]
+  

@@ -1,7 +1,7 @@
 {
-  "name": "@sushiswap/default-token-list",
-  "version": "16.7.0",
-  "description": "◦ The SushiSwap default token list",
+  "name": "@digitalnativeinc/default-token-list",
+  "version": "0.0.0",
+  "description": "Standard default token list",
   "main": "build/sushiswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushiswap/default-token-list.git"
+    "url": "git+https://github.com/digitalnativeinc/default-token-list.git"
   },
   "keywords": [
-    "sushiswap",
+    "standard",
     "default",
     "token",
     "list"
@@ -25,9 +25,9 @@
   "author": "Matthew Lilley <hello@matthewlilley.com>",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sushiswap/default-token-list/issues"
+    "url": "https://github.com/digitalnativeinc/default-token-list/issues"
   },
-  "homepage": "https://github.com/sushiswap/default-token-list#readme",
+  "homepage": "https://github.com/digitalnativeinc/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.3.0",

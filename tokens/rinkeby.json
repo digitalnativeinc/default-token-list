@@ -37,5 +37,19 @@
     "symbol": "SUSHI",
     "decimals": 18,
     "chainId": 4
+  },
+  {
+    "name": "Wrapped Shibuya",
+    "address": "0x5d079f9f247F2A22fF8326C2EAb38609E54a865a",
+    "symbol": "WSBY",
+    "decimals": 18,
+    "chainId": 4
+  },
+  {
+    "name": "Standard",
+    "address": "0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4",
+    "symbol": "STND",
+    "decimals": 18,
+    "chainId": 4
   }
 ]
