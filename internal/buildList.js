@@ -26,7 +26,6 @@ const celo = require("../tokens/celo.json");
 const palm = require("../tokens/palm.json");
 const moonriver = require("../tokens/moonriver.json");
 const shibuya = require("../tokens/shibuya.json");
-const shiden = require("../tokens/shiden.json");
 
 module.exports = function buildList() {
   const parsed = version.split(".");
@@ -68,7 +67,7 @@ module.exports = function buildList() {
       ...celo,
       ...palm,
       ...moonriver,
-      ...shibuya,
+      ...shibuya
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {

@@ -10,6 +10,7 @@
     {
       "name": "Standard",
       "address": "0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c",
+      "symbol": "STND",
       "decimals": 18,
       "chainId": 81,
       "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c/logo.png" 
