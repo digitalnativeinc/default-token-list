@@ -25,11 +25,13 @@ const arbitrum = require("../tokens/arbitrum.json");
 const celo = require("../tokens/celo.json");
 const palm = require("../tokens/palm.json");
 const moonriver = require("../tokens/moonriver.json");
+const shibuya = require("../tokens/shibuya.json");
+
 
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
-    name: "SushiSwap Menu",
+    name: "Standard Protocol Menu",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -38,8 +40,8 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI:
-      "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
-    keywords: ["sushiswap", "default"],
+      "raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x9040e237C3bF18347bb00957Dc22167D0f2b999d/logo.png",
+    keywords: ["standard protocol", "default"],
     tokens: [
       ...mainnet,
       ...ropsten,
@@ -66,6 +68,7 @@ module.exports = function buildList() {
       ...celo,
       ...palm,
       ...moonriver,
+      ...shibuya
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {

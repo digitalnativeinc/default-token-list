@@ -32,10 +32,11 @@
     "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
   },
   {
-    "name": "SushiToken",
-    "address": "0x5457Cc9B34eA486eB8d3286329F3536f71fa8A8B",
-    "symbol": "SUSHI",
+    "name": "Standard",
+    "address": "0xCcf56fb87850fe6cfF0cD16f491933c138B7EaDD",
+    "symbol": "STND",
     "decimals": 18,
-    "chainId": 4
+    "chainId": 4,
+    "logoURI": "raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x9040e237C3bF18347bb00957Dc22167D0f2b999d/logo.png"
   }
 ]

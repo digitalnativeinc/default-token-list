@@ -4,7 +4,7 @@ const { Octokit } = require("@octokit/rest");
 
 const octokit = new Octokit();
 
-const { ChainId } = require("@sushiswap/sdk");
+const { ChainId } = require("@digitalnative/standard-protocol-sdk");
 
 const fs = require("fs");
 

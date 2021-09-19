@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Wrapped Shibuya",
+      "address": "0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4",
+      "symbol": "WSBY",
+      "decimals": 18,
+      "chainId": 81,
+      "logoURI": "https://i.imgur.com/DNFi91h.jpg"
+    },
+    {
+      "name": "USD Coin USDC",
+      "address": "0xA4F42578c723A5B6781A9F49d586B8645ba85C31",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 81,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    },
+    {
+      "name": "Standard",
+      "address": "0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c",
+      "symbol": "STND",
+      "decimals": 18,
+      "chainId": 81,
+      "logoURI": "raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x9040e237C3bF18347bb00957Dc22167D0f2b999d/logo.png"
+    }
+  ]
+  
