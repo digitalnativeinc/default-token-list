@@ -31,7 +31,7 @@ const shibuya = require("../tokens/shibuya.json");
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
-    name: "Standard Protocol Menu",
+    name: "Standard Menu",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -40,7 +40,7 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI:
-      "raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x9040e237C3bF18347bb00957Dc22167D0f2b999d/logo.png",
+      "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x9040e237C3bF18347bb00957Dc22167D0f2b999d/logo.png",
     keywords: ["standard protocol", "default"],
     tokens: [
       ...mainnet,

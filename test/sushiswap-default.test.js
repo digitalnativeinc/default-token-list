@@ -11,6 +11,10 @@ const validator = ajv.compile(schema);
 describe("buildList", () => {
   const defaultTokenList = buildList();
 
+  if (validator(defaultTokenList)) {
+  } else {
+    console.log(validator.errors)
+  }
   it("validates", () => {
     expect(validator(defaultTokenList)).to.equal(true);
   });
