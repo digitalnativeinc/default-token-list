@@ -1,0 +1,11 @@
+[
+    {
+      "name": "Wrapped Shiden",
+      "address": "0x0f933Dc137D21cA519ae4C7E93f87a4C8EF365Ef",
+      "symbol": "WSDN",
+      "decimals": 18,
+      "chainId": 336,
+      "logoURI": "https://apps.standard.tech/img/networks/shiden-network.jpg"
+    }
+  ]
+  
