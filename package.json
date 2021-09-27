@@ -1,6 +1,6 @@
 {
   "name": "@digitalnative/default-token-list",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Standard default token list",
   "main": "build/sushiswap-default.tokenlist.json",
   "scripts": {
@@ -43,5 +43,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@tenderly/hardhat-tenderly": "^1.0.12"
   }
 }
