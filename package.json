@@ -1,6 +1,6 @@
 {
-  "name": "@digitalnative/default-token-list-test",
-  "version": "0.0.1",
+  "name": "@digitalnative/default-token-list",
+  "version": "0.0.5",
   "description": "◦ The Standard Protocol default token list",
   "main": "build/standard-protocol-default.tokenlist.json",
   "scripts": {
@@ -40,5 +40,8 @@
     "mocha": "^8.0.1",
     "rimraf": "^3.0.2",
     "xlsx": "^0.17.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
