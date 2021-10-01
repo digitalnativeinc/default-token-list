@@ -1,6 +1,6 @@
 {
-  "name": "@digitalnative/default-token-list",
-  "version": "0.0.5",
+  "name": "@digitalnative/default-token-list-test",
+  "version": "0.0.1",
   "description": "◦ The Standard Protocol default token list",
   "main": "build/standard-protocol-default.tokenlist.json",
   "scripts": {
