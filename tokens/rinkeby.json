@@ -1,7 +1,7 @@
 [
   {
     "name": "Wrapped Ether",
-    "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+    "address": "0xFf6EDfbdE2CE7350d899EB68c922b5B7aE53b78b",
     "symbol": "WETH",
     "decimals": 18,
     "chainId": 4,
@@ -33,7 +33,7 @@
   },
   {
     "name": "Standard",
-    "address": "0xCcf56fb87850fe6cfF0cD16f491933c138B7EaDD",
+    "address": "0xE20c4e5E5f3783bb5B25eE1f30107488B6C26C62",
     "symbol": "STND",
     "decimals": 18,
     "chainId": 4,
