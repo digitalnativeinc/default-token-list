@@ -30,7 +30,7 @@ const shibuya = require("../tokens/shibuya.json");
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
-    name: "SushiSwap Menu",
+    name: "Standard Default Tokenlist",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -39,8 +39,8 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI:
-      "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
-    keywords: ["sushiswap", "default"],
+      "https://i.imgur.com/hIKSt2P.png",
+    keywords: ["standard", "default"],
     tokens: [
       ...mainnet,
       ...ropsten,
