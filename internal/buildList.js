@@ -30,7 +30,7 @@ const shibuya = require("../tokens/shibuya.json");
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
-    name: "Standard Default Tokenlist",
+    name: "Standard Token List",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -67,7 +67,7 @@ module.exports = function buildList() {
       ...celo,
       ...palm,
       ...moonriver,
-      ...shibuya
+      ...shibuya,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {

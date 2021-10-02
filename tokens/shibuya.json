@@ -1,19 +1,18 @@
 [
-    {
-      "name": "Wrapped Shibuya",
-      "address": "0x321F318e7C276c93Cf3094fd3a9d7c4362fd19FB",
-      "symbol": "WSBY",
-      "decimals": 18,
-      "chainId": 81,
-      "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4/logo.png"
-    },
-    {
-      "name": "Standard",
-      "address": "0x3e02512a2bf712904a597c46683771ad0457412d",
-      "symbol": "STND",
-      "decimals": 18,
-      "chainId": 81,
-      "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c/logo.png" 
-    }
-  ]
-  
+  {
+    "name": "Wrapped Shibuya",
+    "address": "0x321F318e7C276c93Cf3094fd3a9d7c4362fd19FB",
+    "symbol": "WSBY",
+    "decimals": 18,
+    "chainId": 81,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4/logo.png"
+  },
+  {
+    "name": "Standard",
+    "address": "0x3E02512a2BF712904A597c46683771Ad0457412D",
+    "symbol": "STND",
+    "decimals": 18,
+    "chainId": 81,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c/logo.png"
+  }
+]
