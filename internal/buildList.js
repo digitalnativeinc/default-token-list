@@ -39,7 +39,7 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI:
-      "https://i.imgur.com/hIKSt2P.png",
+      "https://raw.githubusercontent.com/digitalnativeinc/default-token-list/dnf/media/default-token-list.png",
     keywords: ["standard", "default"],
     tokens: [
       ...mainnet,
