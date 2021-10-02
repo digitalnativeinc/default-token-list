@@ -1,7 +1,7 @@
 [
     {
       "name": "Wrapped Shibuya",
-      "address": "0x5d079f9f247F2A22fF8326C2EAb38609E54a865a",
+      "address": "0x321F318e7C276c93Cf3094fd3a9d7c4362fd19FB",
       "symbol": "WSBY",
       "decimals": 18,
       "chainId": 81,
@@ -9,7 +9,7 @@
     },
     {
       "name": "Standard",
-      "address": "0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c",
+      "address": "0x3e02512a2bf712904a597c46683771ad0457412d",
       "symbol": "STND",
       "decimals": 18,
       "chainId": 81,
