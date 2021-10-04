@@ -8,6 +8,14 @@
     "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4/logo.png"
   },
   {
+    "name": "USD Coin USDC",
+    "address": "0xA4F42578c723A5B6781A9F49d586B8645ba85C31",
+    "symbol": "USDC",
+    "decimals": 6,
+    "chainId": 81,
+    "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+  },
+  {
     "name": "Standard",
     "address": "0xB0a1AA4CB76c0e35d9Ac9eba422bF76534Bf155A",
     "symbol": "STND",
