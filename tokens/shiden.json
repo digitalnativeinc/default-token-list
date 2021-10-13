@@ -4,7 +4,7 @@
     "address": "0x0f933Dc137D21cA519ae4C7E93f87a4C8EF365Ef",
     "symbol": "WSDN",
     "decimals": 18,
-    "chainId": 81,
+    "chainId": 336,
     "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4/logo.png"
   },
   {
@@ -12,12 +12,12 @@
     "address": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
     "symbol": "USDC",
     "decimals": 6,
-    "chainId": 81,
+    "chainId": 336,
     "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
   },
   {
     "address": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
-    "chainId": 81,
+    "chainId": 336,
     "name": "Tether USD",
     "symbol": "USDT",
     "decimals": 6,
@@ -28,12 +28,12 @@
     "address": "0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73",
     "symbol": "DAI",
     "decimals": 18,
-    "chainId": 81,
+    "chainId": 336,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735/logo.png"
   },
   {
     "address": "0x65e66a61d0a8f1e686c2d6083ad611a10d84d97a",
-    "chainId": 81,
+    "chainId": 336,
     "name": "Binance USD",
     "symbol": "BUSD",
     "decimals": 18,
@@ -44,12 +44,12 @@
     "address": "0x765277eebeca2e31912c9946eae1021199b39c61",
     "symbol": "ETH",
     "decimals": 18,
-    "chainId": 81,
+    "chainId": 336,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
   },
   {
     "address": "0x922d641a426dcffaef11680e5358f34d97d112e1",
-    "chainId": 81,
+    "chainId": 336,
     "name": "Wrapped Bitcoin",
     "symbol": "WBTC",
     "decimals": 8,
@@ -59,7 +59,7 @@
     "name": "BNB Token",
     "symbol": "BNB",
     "address": "0x332730a4f6e03d9c55829435f10360e13cfa41ff",
-    "chainId": 81,
+    "chainId": 336,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/bnb.jpg"
   },
@@ -68,7 +68,7 @@
     "address": "0x722377A047e89CA735f09Eb7CccAb780943c4CB4",
     "symbol": "STND",
     "decimals": 18,
-    "chainId": 81,
+    "chainId": 336,
     "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c/logo.png"
   }
 ]
