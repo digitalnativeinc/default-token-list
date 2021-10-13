@@ -1,26 +1,29 @@
-const XLSX = require("xlsx");
+const XLSX = require('xlsx');
 
-const { Octokit } = require("@octokit/rest");
+const { Octokit } = require('@octokit/rest');
 
 const octokit = new Octokit();
 
-const { ChainId } = require("@sushiswap/sdk");
+const { ChainId } = require('@sushiswap/sdk');
 
-const fs = require("fs");
+const fs = require('fs');
 
-const { resolve } = require("path");
+const { resolve } = require('path');
 
 const NAME = {
-  [ChainId.MAINNET]: "mainnet",
-  [ChainId.FANTOM]: "fantom",
-  [ChainId.MATIC]: "matic",
-  [ChainId.XDAI]: "xdai",
-  [ChainId.BSC]: "bsc",
-  [ChainId.AVALANCHE]: "avalanche",
-  [ChainId.HECO]: "heco",
-  [ChainId.HARMONY]: "harmony",
-  [ChainId.OKEX]: "okex",
-  [ChainId.CELO]: "celo",
+  [ChainId.MAINNET]: 'mainnet',
+  [ChainId.FANTOM]: 'fantom',
+  [ChainId.MATIC]: 'matic',
+  [ChainId.XDAI]: 'xdai',
+  [ChainId.BSC]: 'bsc',
+  [ChainId.AVALANCHE]: 'avalanche',
+  [ChainId.HECO]: 'heco',
+  [ChainId.HARMONY]: 'harmony',
+  [ChainId.OKEX]: 'okex',
+  [ChainId.CELO]: 'celo',
+  [ChainId.RINKEBY]: 'rinkeby',
+  [ChainId.SHIBUYA]: 'shibuya',
+  [ChainId.SHIDEN]: 'shiden',
 };
 
 (async () => {
@@ -39,12 +42,12 @@ const NAME = {
       // Grab file file names of the sushiswap/icons repo at the token path
       // we can use this to see if our default list is missing icons
       const { data } = await octokit.rest.repos.getContent({
-        owner: "sushiswap",
-        repo: "icons",
-        path: "token",
+        owner: 'sushiswap',
+        repo: 'icons',
+        path: 'token',
       });
 
-      const icons = data.map((data) => data.name.replace(".jpg", ""));
+      const icons = data.map((data) => data.name.replace('.jpg', ''));
 
       const json = [];
 
@@ -64,14 +67,14 @@ const NAME = {
             address: token.address,
             name: token.name,
             symbol: token.symbol,
-            logoURI: token?.logoURI || "",
+            logoURI: token?.logoURI || '',
           });
-          console.log("Add to list to send to chester");
+          console.log('Add to list to send to chester');
           continue;
         }
 
         // Check if logoURI has correct path
-        if (!token.logoURI.includes("sushiswap/icons")) {
+        if (!token.logoURI.includes('sushiswap/icons')) {
           // TODO: Automate this part...
           const logoURI = `https://raw.githubusercontent.com/sushiswap/icons/master/token/${icon}.jpg`;
 

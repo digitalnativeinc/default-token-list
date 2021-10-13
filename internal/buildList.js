@@ -1,36 +1,37 @@
-const { version } = require("../package.json");
+const { version } = require('../package.json');
 
-const mainnet = require("../tokens/mainnet.json");
-const ropsten = require("../tokens/ropsten.json");
-const rinkeby = require("../tokens/rinkeby.json");
-const goerli = require("../tokens/goerli.json");
-const kovan = require("../tokens/kovan.json");
-const fantom = require("../tokens/fantom.json");
-const fantomTestnet = require("../tokens/fantom-testnet.json");
-const matic = require("../tokens/matic.json");
-const maticTestnet = require("../tokens/matic-testnet.json");
-const xdai = require("../tokens/xdai.json");
-const bsc = require("../tokens/bsc.json");
-const bscTestnet = require("../tokens/bsc-testnet.json");
-const moonbase = require("../tokens/moonbase.json");
-const avalanche = require("../tokens/avalanche.json");
-const fuji = require("../tokens/fuji.json");
-const heco = require("../tokens/heco.json");
-const hecoTestnet = require("../tokens/heco-testnet.json");
-const harmony = require("../tokens/harmony.json");
-const harmonyTestnet = require("../tokens/harmony-testnet.json");
-const okex = require("../tokens/okex.json");
-const okexTestnet = require("../tokens/okex-testnet.json");
-const arbitrum = require("../tokens/arbitrum.json");
-const celo = require("../tokens/celo.json");
-const palm = require("../tokens/palm.json");
-const moonriver = require("../tokens/moonriver.json");
-const shibuya = require("../tokens/shibuya.json");
+const mainnet = require('../tokens/mainnet.json');
+const ropsten = require('../tokens/ropsten.json');
+const rinkeby = require('../tokens/rinkeby.json');
+const goerli = require('../tokens/goerli.json');
+const kovan = require('../tokens/kovan.json');
+const fantom = require('../tokens/fantom.json');
+const fantomTestnet = require('../tokens/fantom-testnet.json');
+const matic = require('../tokens/matic.json');
+const maticTestnet = require('../tokens/matic-testnet.json');
+const xdai = require('../tokens/xdai.json');
+const bsc = require('../tokens/bsc.json');
+const bscTestnet = require('../tokens/bsc-testnet.json');
+const moonbase = require('../tokens/moonbase.json');
+const avalanche = require('../tokens/avalanche.json');
+const fuji = require('../tokens/fuji.json');
+const heco = require('../tokens/heco.json');
+const hecoTestnet = require('../tokens/heco-testnet.json');
+const harmony = require('../tokens/harmony.json');
+const harmonyTestnet = require('../tokens/harmony-testnet.json');
+const okex = require('../tokens/okex.json');
+const okexTestnet = require('../tokens/okex-testnet.json');
+const arbitrum = require('../tokens/arbitrum.json');
+const celo = require('../tokens/celo.json');
+const palm = require('../tokens/palm.json');
+const moonriver = require('../tokens/moonriver.json');
+const shibuya = require('../tokens/shibuya.json');
+const shiden = require('../tokens/shiden.json');
 
 module.exports = function buildList() {
-  const parsed = version.split(".");
+  const parsed = version.split('.');
   return {
-    name: "Standard Token List",
+    name: 'Standard Token List',
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -39,8 +40,8 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI:
-      "https://raw.githubusercontent.com/digitalnativeinc/default-token-list/dnf/media/default-token-list.png",
-    keywords: ["standard", "default"],
+      'https://raw.githubusercontent.com/digitalnativeinc/default-token-list/dnf/media/default-token-list.png',
+    keywords: ['standard', 'default'],
     tokens: [
       ...mainnet,
       ...ropsten,
@@ -68,6 +69,7 @@ module.exports = function buildList() {
       ...palm,
       ...moonriver,
       ...shibuya,
+      ...shiden,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
