@@ -79,4 +79,12 @@
     "decimals": 18,
     "logoURI": "https://jpyc.jp/static/media/jpyc.0d1e5d3f.png"
   },
+    {
+    "address": "0x6D072DC0Fb5B0f964C36238997F86A32c301318A",
+    "chainId": 336,
+    "name": "RivrDoge",
+    "symbol": "RivrDoge",
+    "decimals": 18,
+    "logoURI": "http://rivrdoge.com/wp-content/uploads/2021/09/logo.png"
+  },
 ]
