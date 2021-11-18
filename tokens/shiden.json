@@ -72,11 +72,19 @@
     "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c/logo.png"
   },
   {
-    "address": "0x735abe48e8782948a37c7765ecb76b98cde97b0f",
+    "address": "0x735aBE48e8782948a37C7765ECb76b98CdE97B0F",
     "chainId": 336,
     "name": "JPY Coin",
     "symbol": "JPYC",
     "decimals": 18,
     "logoURI": "https://jpyc.jp/static/media/jpyc.0d1e5d3f.png"
   },
+  {
+    "address": "0x6D072DC0Fb5B0f964C36238997F86A32c301318A",
+    "chainId": 336,
+    "name": "RivrDoge",
+    "symbol": "RivrDoge",
+    "decimals": 18,
+    "logoURI": "http://rivrdoge.com/wp-content/uploads/2021/09/logo.png"
+  }
 ]
