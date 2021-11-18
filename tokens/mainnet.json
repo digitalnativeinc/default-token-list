@@ -2902,5 +2902,13 @@
     "symbol": "dSTND",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/xstnd.jpg"
+  },
+  {
+    "chainId": 1,
+    "address": "0x00e856ee945a49bb73436e719d96910cd9d116a4",
+    "name": "Wrapped Shiden",
+    "symbol": "WSDN",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4/logo.png"
   }
 ]
