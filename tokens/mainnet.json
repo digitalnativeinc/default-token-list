@@ -2905,7 +2905,7 @@
   },
   {
     "chainId": 1,
-    "address": "0x00e856ee945a49bb73436e719d96910cd9d116a4",
+    "address": "0x00E856ee945A49bb73436e719D96910Cd9D116a4",
     "name": "Wrapped Shiden",
     "symbol": "WSDN",
     "decimals": 18,
