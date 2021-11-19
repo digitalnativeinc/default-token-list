@@ -2910,5 +2910,13 @@
     "symbol": "WSDN",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/wsdn.jpg"
+  },
+  {
+    "chainId": 1,
+    "name": "Metis",
+    "address": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
+    "symbol": "METIS",
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png"
   }
 ]
