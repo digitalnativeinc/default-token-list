@@ -14,5 +14,13 @@
     "symbol": "STND",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x08BE454de533509e8832B257116C5506E55b0b64/logo.png"
+  },
+  {
+    "chainId": 1088,
+    "address": "0x31021E0B1CC6F89E04586A0e3cF5C46D5498A5E9",
+    "name": "MetisDoge",
+    "symbol": "MDOGE",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x08BE454de533509e8832B257116C5506E55b0b64/logo.png"
   }
 ]

@@ -4,7 +4,7 @@ const { Octokit } = require('@octokit/rest');
 
 const octokit = new Octokit();
 
-const { ChainId } = require('@sushiswap/sdk');
+const { ChainId } = require('@digitalnative/standard-protocol-sdk');
 
 const fs = require('fs');
 
@@ -24,6 +24,7 @@ const NAME = {
   [ChainId.RINKEBY]: 'rinkeby',
   [ChainId.SHIBUYA]: 'shibuya',
   [ChainId.SHIDEN]: 'shiden',
+  [ChainId.METIS]: 'metis',
 };
 
 (async () => {
