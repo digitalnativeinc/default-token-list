@@ -4,11 +4,11 @@
     "address": "0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481",
     "symbol": "WMETIS",
     "decimals": 18,
-    "chainId": 435,
+    "chainId": 1088,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png"
   },
   {
-    "chainId": 435,
+    "chainId": 1088,
     "address": "0xc12caC7090baa48Ec750CceeC57C80768F6ee58E",
     "name": "Standard",
     "symbol": "STND",
