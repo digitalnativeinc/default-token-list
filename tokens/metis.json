@@ -1,10 +1,18 @@
 [
   {
     "name": "Wrapped Metis",
-    "address": "0x0000000",
+    "address": "0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481",
     "symbol": "WMETIS",
     "decimals": 18,
     "chainId": 435,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png"
+  },
+  {
+    "chainId": 435,
+    "address": "0xc12caC7090baa48Ec750CceeC57C80768F6ee58E",
+    "name": "Standard",
+    "symbol": "STND",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x08BE454de533509e8832B257116C5506E55b0b64/logo.png"
   }
 ]
