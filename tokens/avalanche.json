@@ -57,14 +57,6 @@
   },
   {
     "chainId": 43114,
-    "address": "0x39cf1BD5f15fb22eC3D9Ff86b0727aFc203427cc",
-    "decimals": 18,
-    "name": "SushiToken",
-    "symbol": "SUSHI",
-    "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0x39cf1BD5f15fb22eC3D9Ff86b0727aFc203427cc/logo.png"
-  },
-  {
-    "chainId": 43114,
     "address": "0xde3A24028580884448a5397872046a019649b084",
     "decimals": 6,
     "name": "Old Tether USD",
