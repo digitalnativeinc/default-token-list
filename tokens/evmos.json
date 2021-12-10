@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Wrapped Photon",
+    "address": "0xbf4Dd73c9f90E9F2dDBa56933cEd7EafdF56a8A9",
+    "symbol": "WPHOTON",
+    "decimals": 18,
+    "chainId": 81,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0x3b333B767011D5B28B3a1b88d6c2c26cc68C27D4/logo.png"
+  },
+  {
+    "name": "Standard",
+    "address": "0xDcEC054A0ACE49a42d3F3d835A02b7adF13f34e8",
+    "symbol": "STND",
+    "decimals": 18,
+    "chainId": 81,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/assets/dnf/blockchains/shibuya/assets/0xCE9Fa59dE891CBDB6C2fc7EE062C54b9aD4Ee36c/logo.png"
+  }
+]
