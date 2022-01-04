@@ -1,10 +1,42 @@
 [
   {
     "name": "Wrapped Metis",
-    "address": "0x0000000",
+    "address": "0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481",
     "symbol": "WMETIS",
     "decimals": 18,
-    "chainId": 435,
+    "chainId": 1088,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png"
+  },
+  {
+    "chainId": 1088,
+    "address": "0xc12caC7090baa48Ec750CceeC57C80768F6ee58E",
+    "name": "Standard",
+    "symbol": "STND",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x08BE454de533509e8832B257116C5506E55b0b64/logo.png"
+  },
+  {
+    "chainId": 1088,
+    "address": "0x31021E0B1CC6F89E04586A0e3cF5C46D5498A5E9",
+    "name": "MetisDoge",
+    "symbol": "MDOGE",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/mdoge.png"
+  },
+  {
+    "name": "USD Coin USDC",
+    "address": "0xEA32A96608495e54156Ae48931A7c20f0dcc1a21",
+    "symbol": "m.USDC",
+    "decimals": 6,
+    "chainId": 1088,
+    "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+  },
+  {
+    "address": "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC",
+    "chainId": 1088,
+    "name": "Tether USD",
+    "symbol": "m.USDT",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/usdt.jpg"
   }
 ]
