@@ -1,6 +1,6 @@
 {
   "name": "@digitalnative/default-token-list",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "Standard default token list",
   "main": "build/standard-default.tokenlist.json",
   "scripts": {
@@ -39,12 +39,7 @@
     "lodash": "^4.17.21",
     "mocha": "^8.0.1",
     "rimraf": "^3.0.2",
-<<<<<<< HEAD
-    "xlsx": "^0.17.0",
-    "@digitalnative/standard-protocol-sdk": "^0.0.153"
-=======
     "xlsx": "^0.17.0"
->>>>>>> 5c7ddb29c8b47ab40e2e88a79de49a8fdfdf0ea3
   },
   "publishConfig": {
     "access": "public"
