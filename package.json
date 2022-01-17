@@ -1,10 +1,6 @@
 {
   "name": "@digitalnative/default-token-list",
-<<<<<<< HEAD
-  "version": "0.0.35",
-=======
   "version": "0.0.36",
->>>>>>> 5c7ddb29c8b47ab40e2e88a79de49a8fdfdf0ea3
   "description": "Standard default token list",
   "main": "build/standard-default.tokenlist.json",
   "scripts": {
