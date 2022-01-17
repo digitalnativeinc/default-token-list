@@ -25,6 +25,7 @@ const NAME = {
   [ChainId.SHIBUYA]: 'shibuya',
   [ChainId.SHIDEN]: 'shiden',
   [ChainId.METIS]: 'metis',
+  [ChainId.EVMOS]: 'evmos',
 };
 
 (async () => {

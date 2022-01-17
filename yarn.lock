@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@digitalnative/standard-protocol-sdk@^0.0.145":
-  version "0.0.145"
-  resolved "https://registry.yarnpkg.com/@digitalnative/standard-protocol-sdk/-/standard-protocol-sdk-0.0.145.tgz#697f511de37f4d22d335de17cd4dd78e1c14b36f"
-  integrity sha512-zo0lOrd6gl4Iyvm96x50MIS48DOijUyqHg36rCcvyUYDgurg3Pak71NRzoXDNGPTo54NfyUrpPFSulrR3VDx8Q==
+"@digitalnative/standard-protocol-sdk@^0.0.153":
+  version "0.0.153"
+  resolved "https://registry.yarnpkg.com/@digitalnative/standard-protocol-sdk/-/standard-protocol-sdk-0.0.153.tgz#a8a5f1cdfd2042f96b93f85c28f36904c5dedf91"
+  integrity sha512-nMglb0uc53zGnrWD2jAxHhN9+jcxMV/GuMxiJfBfCl6ew8PxlAE+zk7xvcL0yoaQ/kzT25gNbWo4SGE2qivWxA==
   dependencies:
     big.js "^6.1.0"
     decimal.js-light "^2.5.0"

@@ -28,6 +28,7 @@ const moonriver = require('../tokens/moonriver.json');
 const shibuya = require('../tokens/shibuya.json');
 const shiden = require('../tokens/shiden.json');
 const metis = require('../tokens/metis.json');
+const evmos = require('../tokens/evmos.json');
 
 module.exports = function buildList() {
   const parsed = version.split('.');
@@ -72,6 +73,7 @@ module.exports = function buildList() {
       ...shibuya,
       ...shiden,
       ...metis,
+      ...evmos,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
