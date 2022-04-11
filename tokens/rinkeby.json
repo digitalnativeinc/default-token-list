@@ -1,5 +1,21 @@
 [
   {
+    "name": "Meter USD Old",
+    "address": "0x6388e0cC745b3c5ED23c6D569A01A4D27eDa3E14",
+    "symbol": "oldUSM",
+    "decimals": 18,
+    "chainId": 4,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/usm.jpg"
+  },
+  {
+    "name": "Meter USD",
+    "address": "0x3748133a62f3B128eAbD6883F99c348862D768e6",
+    "symbol": "USM",
+    "decimals": 18,
+    "chainId": 4,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/usm.jpg"
+  },
+  {
     "name": "Wrapped Ether",
     "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
     "symbol": "WETH",

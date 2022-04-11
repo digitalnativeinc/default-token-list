@@ -8,6 +8,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png"
   },
   {
+    "name": "Meter USD",
+    "address": "0xfC76114C5AdeBfa257153eA82b8594C3B25baebe",
+    "symbol": "USM",
+    "decimals": 18,
+    "chainId": 1088,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/usm.jpg"
+  },
+  {
     "chainId": 1088,
     "address": "0xc12caC7090baa48Ec750CceeC57C80768F6ee58E",
     "name": "Standard",
