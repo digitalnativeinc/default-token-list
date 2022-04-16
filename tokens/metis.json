@@ -8,14 +8,6 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png"
   },
   {
-    "name": "Terra USD",
-    "address": "0x0b5740c6b4a97f90eF2F0220651Cca420B868FfB",
-    "symbol": "UST",
-    "decimals": 6,
-    "chainId": 1088,
-    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/ust.jpg"
-  },
-  {
     "name": "Meter USD",
     "address": "0xfC76114C5AdeBfa257153eA82b8594C3B25baebe",
     "symbol": "USM",
@@ -38,6 +30,14 @@
     "symbol": "MDOGE",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/mdoge.png"
+  },
+  {
+    "name": "Terra USD",
+    "address": "0x0b5740c6b4a97f90eF2F0220651Cca420B868FfB",
+    "symbol": "UST",
+    "decimals": 6,
+    "chainId": 1088,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/ust.jpg"
   },
   {
     "name": "USD Coin USDC",
