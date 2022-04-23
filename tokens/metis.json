@@ -56,6 +56,14 @@
     "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/usdt.jpg"
   },
   {
+    "name": "Dai Stablecoin",
+    "address": "0x4651B38e7ec14BB3db731369BFE5B08F2466Bd0A",
+    "symbol": "DAI",
+    "decimals": 18,
+    "chainId": 1088,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/dai.jpg"
+  },
+  {
     "chainId": 1088,
     "address": "0x68D97B7A961a5239B9F911DA8dEb57F6eF6e5e28",
     "decimals": 18,
