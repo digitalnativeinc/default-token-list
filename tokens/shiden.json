@@ -86,5 +86,13 @@
     "symbol": "RivrDoge",
     "decimals": 18,
     "logoURI": "http://rivrdoge.com/wp-content/uploads/2021/09/logo.png"
+  },
+  {
+    "address": "0xCCD3C0ce2B05fdf4f9638C97009E29e3D9317B45",
+    "chainId": 336,
+    "name": "MeterUSD",
+    "symbol": "USM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/digitalnativeinc/icons/master/token/mtr.jpg"
   }
 ]
