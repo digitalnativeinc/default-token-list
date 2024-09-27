@@ -84,7 +84,7 @@
     "chainId": 336,
     "name": "RivrDoge",
     "symbol": "RivrDoge",
-    "decimals": 18,
+    "decimals": 9,
     "logoURI": "http://rivrdoge.com/wp-content/uploads/2021/09/logo.png"
   },
   {
